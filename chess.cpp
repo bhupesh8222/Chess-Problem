@@ -156,7 +156,8 @@ int main()
 	   //cout<<isCheck(x,y, king_x, king_y,queen_x,queen_y);
 	   
 	   
-	   int arr[8][8],res[4];
+	   int arr[8][8];
+	   int res[4];
 	   
 	   for(int i=0;i<8;i++){
 	       for(int j=0;j<8;j++){
@@ -199,6 +200,6 @@ int main()
 	 res[1]=count1;
 	 res[2]=count2;
 	 res[3]=count3;
-// 	 return res;
+     //return res;
 	 
 }
